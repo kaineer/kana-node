@@ -1,14 +1,13 @@
 //
-const { suite } = require("uvu")
-const assert = require("uvu/assert")
+const { suite } = require("uvu");
+const assert = require("uvu/assert");
 
 const { createRule } = require("../../lib/parser/rule");
 const { createBuffer } = require("../../lib/parser/buffer");
 
 const accepting = suite("accepting");
 const accepted = suite("accepted");
-
-const handling = suite("handleSimple");
+const handling = suite("handling");
 
 const tryRule = (rule, source, fn) => {
   const buffer = createBuffer(source);

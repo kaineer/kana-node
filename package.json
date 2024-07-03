@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "uvu test -w"
+    "test": "uvu test -i fixture.js -w"
   },
   "keywords": [],
   "author": "",
