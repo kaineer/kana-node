@@ -1,0 +1,16 @@
+{
+  "name": "@kaineer/kana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "uvu test -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uvu": "0.5.6",
+    "uvu-watch": "1.0.11"
+  }
+}
