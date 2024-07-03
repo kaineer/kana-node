@@ -4,13 +4,12 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "uvu test -i fixture.js -w"
+    "test": "uvu test -i fixture.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "uvu": "0.5.6",
-    "uvu-watch": "1.0.11"
+    "uvu": "0.5.6"
   }
 }
