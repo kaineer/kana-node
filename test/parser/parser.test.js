@@ -7,7 +7,7 @@ const { createParser } = require("../../lib/parser");
 const cases = require("./cases.fixture.js");
 
 cases.forEach(({ input, expected, comment }) => {
-  const ts = suite(input);
+  const ts = suite(comment || input);
 
   ts.before((ctx) => {
     ctx.parser = createParser(input);

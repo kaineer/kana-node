@@ -3,7 +3,7 @@
 const { suite } = require("uvu");
 const assert = require("uvu/assert");
 
-const { hiragana, katakana } = require("..");
+const { hiragana, katakana } = require("../lib/utf8");
 
 const utf8 = suite("utf8");
 
